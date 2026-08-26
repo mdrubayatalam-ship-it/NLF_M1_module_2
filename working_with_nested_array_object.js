@@ -1,7 +1,7 @@
 
 let students = [
     {
-        Name: "Rubayat",
+        Name: "Rafi",
         Id: 138,
         Department:"EEE",
         grades:[2.75,3.45,3.65,3.54],
