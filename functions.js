@@ -32,3 +32,12 @@ function dollarToBdt(dollar, rate){
     return inBdt;
 }
 console.log("Taka:",dollarToBdt(1000,123.28),"BDT");
+
+// Capitalized
+
+function capWord(word){
+     if(!word) return 0;
+     return word.charAt(0).toUpperCase()+word.slice(1);
+}
+
+console.log(capWord("elephent"));
