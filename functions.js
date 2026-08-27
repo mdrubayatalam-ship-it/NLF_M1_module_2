@@ -1,0 +1,26 @@
+// we will build some real world usable functions
+
+// valid price checking
+function validPrice(price){
+    return typeof price === "number" && price > 0;
+}
+
+console.log(validPrice(0));
+
+
+// email validation
+function validEmail(email){
+    return email.includes("@") && email.includes(".");
+}
+
+console.log(validEmail("rubayat.alam04@gmail.com"));
+
+// calculate the discount price of any product
+function calculateDiscount(price, percentage)
+{
+     let discountPrice = (price * percentage)/100;
+     let netPrice = price - discountPrice;
+     return netPrice;
+}
+
+console.log(calculateDiscount(1200,50));
