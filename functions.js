@@ -24,3 +24,11 @@ function calculateDiscount(price, percentage)
 }
 
 console.log(calculateDiscount(1200,50));
+
+// formate of taka Dollar to BDT
+
+function dollarToBdt(dollar, rate){
+    let inBdt = dollar*rate;
+    return inBdt;
+}
+console.log("Taka:",dollarToBdt(1000,123.28),"BDT");
