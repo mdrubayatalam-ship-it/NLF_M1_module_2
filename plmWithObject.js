@@ -19,10 +19,11 @@ const student = {
 
 let totalSubject = 0;
 let totalMarks = 0;
+console.log(student.marks);
 
 for(const subjct in student.marks)
 {
-      totalMarks += student.marks[subjct];
+      totalMarks += student.marks[subjct]; // 0 + student.marks[subject]
       totalSubject++;
    
 }
