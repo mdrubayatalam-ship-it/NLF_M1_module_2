@@ -39,5 +39,5 @@ function capWord(word){
      if(!word) return 0;
      return word.charAt(0).toUpperCase()+word.slice(1);
 }
-
-console.log(capWord("elephent"));
+const now = new Date("2026-12-25");
+console.log(capWord("elephent"),now);
